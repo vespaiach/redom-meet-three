@@ -1,0 +1,66 @@
+{
+    "name": "redom-web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "redom": "^3.27.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.2",
+        "@babel/plugin-transform-react-jsx": "^7.13.12",
+        "@babel/preset-env": "^7.14.2",
+        "autoprefixer": "^10.2.5",
+        "babel-loader": "^8.2.2",
+        "babel-plugin-transform-redom-jsx": "^3.0.2",
+        "css-loader": "^5.2.4",
+        "extract-loader": "^5.1.0",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.3.1",
+        "postcss-flexbugs-fixes": "^5.0.2",
+        "postcss-loader": "^5.3.0",
+        "postcss-normalize": "^10.0.0",
+        "postcss-preset-env": "^6.7.0",
+        "prettier": "^2.3.0",
+        "sass": "^1.32.13",
+        "sass-loader": "^11.1.1",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.37.0",
+        "webpack-cli": "^4.7.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "scripts": {
+        "build:dev": "webpack --env development",
+        "build:prod": "webpack --env production",
+        "serve": "webpack serve --env port=8888 development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vespaiach/redom-web.git"
+    },
+    "keywords": [],
+    "author": "Toan Nguyen; nta.toan@gmail.com",
+    "license": "Read LICENSE file",
+    "bugs": {
+        "url": "https://github.com/vespaiach/redom-web/issues"
+    },
+    "homepage": "https://github.com/vespaiach/redom-web#readme",
+    "prettier": {
+        "arrowParens": "always",
+        "bracketSpacing": true,
+        "embeddedLanguageFormatting": "auto",
+        "htmlWhitespaceSensitivity": "css",
+        "insertPragma": false,
+        "jsxBracketSameLine": false,
+        "jsxSingleQuote": false,
+        "printWidth": 100,
+        "proseWrap": "preserve",
+        "quoteProps": "as-needed",
+        "requirePragma": false,
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "es5",
+        "useTabs": false
+    }
+}
